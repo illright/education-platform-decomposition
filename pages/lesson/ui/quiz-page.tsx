@@ -1,3 +1,4 @@
+import { Header } from "../../../widgets/header";
 import { useLessonId } from "../lib/use-lesson-id";
 import { TableOfContents } from "./table-of-contents";
 import { renderBlock } from "./render-block";
@@ -8,6 +9,7 @@ export function QuizPage() {
 
   return (
     <div className="tailwind-stuff">
+      <Header />
       {loading ? (
         <>
           <TableOfContentsSkeleton />
