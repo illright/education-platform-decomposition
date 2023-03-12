@@ -1,4 +1,4 @@
-import { Header } from "../../../widgets/header";
+import { Header } from "~widgets/header";
 import { useLessonId } from "../lib/use-lesson-id";
 import { TableOfContents } from "./table-of-contents";
 import { renderBlock } from "./render-block";

@@ -1,3 +1,4 @@
+import { TextBlock } from '~widgets/text-block';
 import { BlockType, type LessonBlock } from '~shared/api';
 
 export function renderBlock(block: LessonBlock) {
